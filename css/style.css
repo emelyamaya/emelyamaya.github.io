@@ -3,7 +3,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
-  background-image: url("../images/paper1.png");
+  background-image: url("../images/retina_wood.png");
 }
 
 #wrapper {
@@ -160,13 +160,29 @@ img {
   transition: filter 0.3s ease-in;
 }
 
-#inspiration p {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
+
 
 #inspiration .right {
   float: right;
+}
+
+#index .right {
+  float: right;
+}
+
+#index main{
+  grid-template-columns: 1fr 300px;
+}
+
+#design img {
+  height: auto;
+  filter: grayscale(1);
+  transition: filter 0.3s ease-in;
+}
+
+#design img:hover{
+  filter: grayscale(0);
+  transition: filter 0.3s ease-in;
 }
 
 #contact {
